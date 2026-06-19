@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索影片-热门国产影片</title>
+  <meta name="description" content="搜索热门国产影片、地区、年份、类型、标签和片名，快速进入影片详情页在线点播。">
+  <meta name="keywords" content="热门国产影片,国产影片,热门影片,影片大全,在线点播,精选影片,高清影片,搜索影片,片库搜索">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="./index.html" aria-label="热门国产影片">
+        <span class="brand-mark">影</span>
+        <span class="brand-copy">
+          <span class="brand-name">热门国产影片</span>
+          <span class="brand-subtitle">在线点播</span>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+        <a class="nav-link active" href="./search.html">搜索</a>
+      </nav>
+      <form class="nav-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+        <a href="./category-guochan.html">国产精选</a>
+        <a href="./category-action.html">动作犯罪</a>
+        <a href="./category-drama.html">剧情佳作</a>
+        <a href="./category-comedy-family.html">喜剧家庭</a>
+        <a href="./category-romance-youth.html">爱情青春</a>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero search-page-hero">
+      <div>
+        <span class="section-kicker">站内搜索</span>
+        <h1>搜索热门影片</h1>
+        <p>输入片名、地区、年份、类型或标签，快速定位想看的内容。</p>
+        <form class="wide-search in-page" action="./search.html" method="get" data-search-form>
+          <div>
+            <input type="search" name="q" placeholder="例如：动作、国产、悬疑、2024" data-search-input>
+            <button type="submit">搜索</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="search-status" data-search-status>输入关键词开始搜索。</div>
+      <div class="movie-grid" data-search-results></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-shell">
+      <div>
+        <a class="footer-brand" href="./index.html">热门国产影片</a>
+        <p>热门国产影片栏目整理关注度较高的国产内容，提供影片分类、片库和片单。</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <strong>频道</strong>
+          <a href="./categories.html">全部分类</a>
+          <a href="./ranking.html">热门榜单</a>
+          <a href="./search.html">站内搜索</a>
+        </div>
+        <div>
+          <strong>精选分类</strong>
+          <a href="./category-guochan.html">国产精选</a>
+          <a href="./category-action.html">动作犯罪</a>
+          <a href="./category-drama.html">剧情佳作</a>
+          <a href="./category-comedy-family.html">喜剧家庭</a>
+          <a href="./category-romance-youth.html">爱情青春</a>
+          <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+          <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+          <a href="./category-animation-anime.html">动画动漫</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/search-data.js"></script>
+  <script src="./assets/site.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
